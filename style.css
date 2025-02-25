@@ -1,0 +1,55 @@
+@font-face {
+    font-Family: Karla;
+    src: url(https://fonts.google.com/specimen/Karla)
+}
+
+
+:root {
+    --primary-cyan:  hsl(179, 62%, 43%);
+    --primary-yellow: hsl(71, 73%, 54%);
+    --neutra-gray: hsl(204, 43%, 93%);
+    --neutral-grayish-blue: hsl(218, 22%, 67%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--primary-cyan);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
